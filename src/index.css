@@ -1,13 +1,51 @@
-body {
+html{
+  scroll-behavior: smooth;
+  overflow: scroll;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  font-size: 62.5%;
+}
+html::-webkit-scrollbar{
+  width: .5rem;
+}
+html::-webkit-scrollbar-track{
+  background-color: rgb(255, 255, 255);
+  opacity: 0;
+}
+html::-webkit-scrollbar-thumb{
+  border-radius: .2rem;
+  background-color:rgb(31, 134, 231);
+}
+*{
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: rgb(255, 255, 255);
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@media(max-width:980px){
+  html{
+    font-size: 56%;
+  }
+}
+@media(max-width:540px){
+  html{
+    font-size: 40%;
+  }
+}
+@media(max-width:375px){
+  html{
+    font-size: 30%;
+  }
 }
