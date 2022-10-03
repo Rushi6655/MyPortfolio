@@ -9,7 +9,7 @@ export const Contact = () => {
         <div className='contact'>
         <div className='homebody'>
         <h1 className='heading'>Contact Me</h1>
-        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minima officiis doloremque ullam, corrupti ea, quam, fuga dolore commodi cupiditate iure! Error quas quod quis aspernatur natus molestias molestiae quia?</span>
+        <span>This are some of my Social media contact platforms ,where you can contact me directly. </span>
         </div>
         <div className='contactform'>
             <a href="mailto : rushishelke2000@gmail.com">

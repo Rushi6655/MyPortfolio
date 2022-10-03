@@ -19,12 +19,13 @@
     background-color: rgb(31, 134, 231);
     border-radius: 10rem;
     transition: ease 1s;
+    box-shadow: 10px 10px 20px gray;
     h1{
         opacity: 9;
         position: absolute;
         color: white;
         font-size: 5rem;
-        transition: ease 1s;
+        transition: ease 2s;
     }
     .list{
         display: flex;
@@ -32,19 +33,28 @@
         opacity: 0;
         color: white;
         z-index: 20;
-        transition: ease-in-out 2s;
+        transition: ease-in-out .5s;
+        transition: ease-in 1s;
         .item{
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
            
             .lable{
-                font-size: 3rem;
+                font-size: 2rem;
             }
             .demoimg{
                 display: flex;
+                margin: 0 2px;
                 width: 30%;
+            }
+            .imgbox{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                padding: 1rem;
             }
         }
         
@@ -62,9 +72,6 @@
             display: flex;
             flex-direction: column;
             opacity: 1;
-        }
-        .item{
-            
         }
     }
 }

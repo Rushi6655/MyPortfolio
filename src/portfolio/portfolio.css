@@ -9,6 +9,7 @@
 }
 .portfolio h1{
     font-size: 5rem;
+    color: rgb(31, 134, 231);
 }
 .links{
     display: flex;
